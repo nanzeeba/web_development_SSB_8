@@ -1,0 +1,200 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-famly: 'Playfair Display', serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262;
+}
+/*common end*/
+
+header{
+	padding: 20px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 1.2%;
+	width: 13%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	padding: 3px 3px;
+	margin: 0 50px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+	transition: 0.3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #222222;
+}
+.banner{
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+	height: 100%;
+}
+.photodiary{
+	margin: 2.2% 9.5%;
+	padding: 0;
+	width: 81%;
+	text-align: left;
+	/*border: 1px solid;*/
+}
+.ubuntu{
+	padding: 2.7% 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color:#b4ad9e
+}
+.big_font{
+	font-size: 35px;
+	font-weight: 500;
+}
+.first_row .second_row .third_row{
+
+	 overflow: hidden;
+
+}
+.single{
+	margin: 0 3%; 
+	width: 40%;
+	text-align: left;
+	padding: 30px 1.1% 0;
+	float: left;
+}
+.s_img{
+	margin: 0 auto;
+	width: 100%;
+
+	
+}
+.s_img img{
+	width: 100%;
+}
+/*news start*/
+.news{
+	width: 100%;
+	background-color: #f0f0f0;
+}
+
+.news_content{
+	margin: 4% 0;
+	padding: 0% 36% ; 
+	width: 36%;
+	text-align: left;
+	
+}
+.news_content p{
+	
+}
+
+.news_content p a{
+	padding: 0 0 0 45%;
+	
+}
+.news_font{
+	font-size: 35px;
+	font-weight: 500;
+	color: #333333;
+}
+.news_ubuntu{
+	padding: 8% 0 2%;
+	font-size: 16px;
+	border-bottom: 1px solid #222222
+}
+
+/*news end*/
+
+/*third row start*/
+.third_row{
+	margin:9% 0;
+	
+}
+.load{
+	margin: 4% 45%;
+	min-width: 10%;
+	text-align: center;
+	color: #707070;
+	background-color: white;
+	border: 1px solid #707070;
+	display: inline-block;
+}
+.load p{
+	
+}
+
+/*third row end*/
+
+/*footer start*/
+footer{
+	width: 100%;
+	background-color: #f0f0f0;
+}
+.footer ul{
+	
+}
+.footer ul li{
+	list-style: none;
+	float: left;
+}
+.footer ul li a{
+	padding: 0.1%;
+	margin: 1%;
+	color: #626262;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+}
+.left{
+	width: 60%;
+	float: left;
+}
+.left ul li{
+	padding:0 1%;
+}
+.right{
+	width: 20%;
+	float: right;
+}
+.right ul li{
+	padding:0 6%;
+}
+
+/*footer end*/
